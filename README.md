@@ -2,6 +2,8 @@
 
   • Clock App is developed in html, css and javascript, the design was taken from the challenges in Frontend Mentor, with some slight changes in the images, if you want to do the     challenge like me, I leave the challenge link below.
   
+  https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM
+  
 # Frontend Mentor Challenge | Clock App
   
   • https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM   

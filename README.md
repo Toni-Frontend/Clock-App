@@ -1,8 +1,10 @@
 # Clock-App
-Clock App
 
-
-
+  • Clock App is developed in html, css and javascript, the design was taken from the challenges in Frontend Mentor, with some slight changes in the images, if you want to do the     challenge like me, I leave the challenge link below.
+  
+# Frontend Mentor Challenge | Clock App
+  
+  • https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM   
 
 # User Story
 
@@ -19,6 +21,4 @@ Clock App
   • Generate random programming quotes by clicking the refresh icon near the quote
   
   
-# Frontend Mentor Challenge | Clock App
-  
-  • https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM 
+

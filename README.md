@@ -1,5 +1,6 @@
 # Clock-App
- 
+
+ • Clock App is a frontend mentor challenge developed in html, css and javascript, with some slight changes in the images and different details in the design, if you want to carry    out the project like me, I leave you a link to the challenge on the page of Frontend mentor.
  
 ![image](https://github.com/TonyBravo-FrontDev/Clock-App/blob/main/img/preview-clock-app.jpg)
 

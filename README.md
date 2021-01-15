@@ -1,7 +1,7 @@
 # Clock-App
  
  
-  ![ScreenShot](https://raw.github.com/TonyBravo-FrontDev/Clock-App/blob/main/img/preview-clock-app.jpg)
+  ![image](https://raw.github.com/TonyBravo-FrontDev/Clock-App/blob/main/img/preview-clock-app.jpg)
 
 # User Stories
 

@@ -21,3 +21,15 @@
   • Be shown the correct greeting and background image based on the time of day they're visiting the site
   
   • Generate random programming quotes by clicking the refresh icon near the quote
+  
+# API'S FREE
+  
+  • <a href="https://api.quotable.io/random">Random quotes</a>
+  
+  • <a href="https://worldtimeapi.org/api/ip">WorldTime Api</a>
+  
+  • <a href="https://freegeoip.app/json/">Geo-IP</a>
+  
+# Technologies used
+
+  • HTML • CSS • SASS • JavaScript

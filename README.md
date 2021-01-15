@@ -22,4 +22,4 @@
   
 # Technologies used
   
-  • HTML • CSS • JavaScript 
+  • HTML • CSS • SASS • JavaScript 

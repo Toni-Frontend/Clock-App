@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg" href="./img/icon-clock.svg" />
+    <meta name="description" content="Clock App"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/background.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <title>Clock App</title>
+  </head>
+  <body>
+    <div class="bg">
+    <main id="main-section">
+      <article class="article-quote">
+        <div class="frase-container">
+            <p id="quote"></p>
+            <button id="refresh">
+                <ion-icon class="refresh-button" name="repeat-outline"></ion-icon>
+            </button>
+        </div>
+        <p class="author"></p>
+      </article>
+      <section class="container-timezone">
+        <div class="col-1">
+          <div class="content-lap">
+            <i class="fas icon-day"></i>
+            <p class="timeday"></p>
+          </div>
+          <div class="content-timehour">
+            <h2 class="hour"></h2>
+            <p id="abb"></p>
+          </div>
+          <p id="location"></p>
+        </div>
+        <div class="col-2">
+          <button class="more">
+            <span class="click-more">More</span>
+            <div class="eclipse">
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <section class="more-information">
+        <div class="col-3">
+            <ul class="list-information">
+                <li>
+                    <h3 class="title-more">CURRENT TIMEZONE</h3>
+                    <p id="current-timezone" class="text-more region"></p>
+                </li>
+                <li>
+                    <h3 class="title-more">DAY OF THE YEAR</h3>
+                    <p id="day-year" class="text-more"></p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul class="list-information">
+                <li>
+                    <h3 class="title-more">DAY OF THE WEEK</h3>
+                    <p id="day-week" class="text-more"></p>
+                </li>
+                <li>
+                    <h3 class="title-more">WEEK NUMBER</h3>
+                    <p id="week-number" class="text-more"></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

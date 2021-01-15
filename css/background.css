@@ -1,0 +1,77 @@
+.bg {
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+.bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.morning {
+  transition: all 0.6s ease;
+  background-image: url(../img/mobile/mobile-morning.jpg);
+}
+@media (min-width: 600px) {
+  .morning {
+    transition: all 0.6s ease;
+    background-image: url(../img/tablet/tablet-morning.jpg);
+  }
+}
+@media (min-width: 1200px) {
+  .morning {
+    transition: all 0.6s ease;
+    background-image: url(../img/desktop/desktop-morning.jpg);
+  }
+}
+
+.afternoon {
+  transition: all 0.6s ease;
+  background-image: url(../img/mobile/mobile-afternoon.jpg);
+}
+@media (min-width: 600px) {
+  .afternoon {
+    transition: all 0.6s ease;
+    background-image: url(../img/tablet/tablet-afternoon.jpg);
+  }
+}
+@media (min-width: 1200px) {
+  .afternoon {
+    transition: all 0.6s ease;
+    background-image: url(../img/desktop/desktop-adternoon.jpg);
+  }
+}
+
+.evening {
+  transition: all 0.6s ease;
+  background-image: url(../img/mobile/mobile-night.jpg);
+}
+@media (min-width: 600px) {
+  .evening {
+    transition: all 0.6s ease;
+    background-image: url(../img/tablet/tablet-night.jpg);
+  }
+}
+@media (min-width: 1200px) {
+  .evening {
+    transition: all 0.6s ease;
+    background-image: url(../img/desktop/desktop-night.jpg);
+  }
+}
+
+/*# sourceMappingURL=background.css.map */

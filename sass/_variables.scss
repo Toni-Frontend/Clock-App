@@ -1,0 +1,17 @@
+$font-Roboto: 'Inter', sans-serif;
+$color-white: #ffffff;
+$color-dark: #242424;
+$color-gray: #656565;
+$color-black-transparent: #05050572;
+
+
+@mixin columnflex {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin rowflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

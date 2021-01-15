@@ -20,5 +20,6 @@
 
   • Generate random programming quotes by clicking the refresh icon near the quote
   
+# Technologies used
   
-
+  • HTML • CSS • JavaScript 

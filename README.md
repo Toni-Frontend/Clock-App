@@ -7,7 +7,7 @@
 
 # Url Of My Challenge
  
-  https://clock-app-dev.netlify.app/
+  <a href="https://clock-app-dev.netlify.app/" target="_blank">https://clock-app-dev.netlify.app/</a>
 
 # Frontend Mentor Challenge | Clock App
  https://www.frontendmentor.io/challenges/clock-app-LMFaxFwrM
